@@ -1,0 +1,30 @@
+.shelly i.material-icons
+{
+    cursor: pointer;
+}
+.shelly .switcher i.material-icons
+{
+    font-size: 500%;
+}
+.shelly .switcher i.on
+{
+    color: green;
+}
+.shelly .switcher i.off
+{
+    color: gray;
+}
+
+.shelly .loader
+{
+    animation: rotation 4s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+}
